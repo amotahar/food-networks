@@ -25,11 +25,13 @@ h1 {
 
 .flexible-container {
   display: flex;
-  margin-bottom: 100px;
 }
 
 #aboute-me {
-  text-align: center;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
 }
 
 .top-banner {
@@ -38,13 +40,14 @@ h1 {
   background-position: right;
 }
 .middle-banner {
-  background-image: url(images/shapes/7.png);
+  background-image: url(images/shapes/Frame\ 59.jpg);
   background-repeat: no-repeat;
   background-position: left;
 }
-.Recepies h1 p {
+.Recepies {
   text-align: center;
-  padding-left: 50px;
+  padding-left: 100px;
+  padding: 2%;
 }
 .menu-item {
   width: 40%;
@@ -59,25 +62,32 @@ h1 {
 }
 .menu-bar {
   display: flex;
-  margin-bottom: 40%;
+  margin-bottom: 100px;
 }
 
-.follower-list {
+.social-site {
   display: flex;
+  font-weight: 700;
+  box-shadow: 10px 10px 30px gray;
+  border-image: linear-gradient(gray, cyan);
+  border-radius: 15px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.social-link {
+  padding-left: 15%;
+  text-align: center;
+  text-decoration: mintcream;
+  text-align: justify;
 }
 
-.font-weight {
-  font-weight: 700;
+footer {
+  text-align: center;
+  background-color: black;
 }
-.follower-item {
-  width: 15%;
-  height: 10%;
-  padding-left: 5%;
-  margin-left: 10%;
-  margin-right: 5%;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 10px 10px 15px gray;
+h2 {
+  color: white;
 }
-.white {
+.white-color {
+  color: white;
 }
